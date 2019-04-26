@@ -15,11 +15,22 @@ body {
     margin-bottom: auto;
 }
 .heading {
+    padding: 25px 10px;
+}
+.heading p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0.05rem;
+}
+.heading h3 {
     font-weight: bold;
     width: 800px;
     font-size: 28px;
-    letter-spacing: 0.2rem;
-    padding: 5px 10px;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .end-heading {
     margin-top: auto;
@@ -377,7 +388,8 @@ header a {
 /* section six */
 .six-bg {
     background-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 10px;;
+    padding-top: 40px;
 }
 .six-bg p {
     font-size: 14px;
@@ -389,7 +401,7 @@ header a {
     width: 900px;
     margin: 0 auto;
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .study {
     margin-left: auto;
@@ -401,12 +413,12 @@ header a {
 .six-bg h4 {
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 
 }
 
 /* section seven */
 .seven-bg {
     background-color: #FEF5E0;
+    padding-top: 40px;
     padding-bottom: 15px;
 }
 .freelances {
@@ -414,28 +426,33 @@ header a {
     display: flex;
     width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
 }
 .freelance {
     width: 100%;
     margin: 0 15px;
 }
 .freelance img {
-    width: 350px;
+    width: 100%;
     height: 180px;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 .freelance h4 {
     text-align: left;
     color: #F2C64D;
     font-size: 14px;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;;
 }
 .freelance > p {
     font-size: 14px;
-    width: 95%;
+    width: 100%;
     line-height: 150%;
+    letter-spacing: 0.1rem;
     text-align: left;
+    margin-top: 0;
 }
 .seven-sub {
     background-color: white;
@@ -447,10 +464,9 @@ header a {
     margin-top: 50px;
     margin-bottom: 30px;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .seven-sub h3 {
-    font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.1rem;
     color: #F2C64D;
@@ -460,6 +476,7 @@ header a {
     font-weight: bold;
     width: 71%;
     margin: 0 auto;
+    padding-bottom: 14px;
 }
 .seven-p {
     font-size: 11px;
@@ -478,6 +495,10 @@ header a {
     padding-top: 50px;
     padding-bottom: 40px;
     color: white;
+}
+.plus-icon {
+    font-size: 28px;
+    padding-top: 6px;
 }
 .teachers {
     max-width: 1200px;
@@ -522,6 +543,7 @@ header a {
 .nine-bg {
     background-color: #EBB94D;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 .QA {
     width: 80px;
@@ -539,10 +561,7 @@ header a {
     color: white;
     font-weight: bold;
 }
-.nine-bg .start-heading {
-    border-color: white;
-}
-.nine-bg .end-heading {
+.nine-bg .start-heading, .nine-bg .end-heading {
     border-color: white;
 }
 
@@ -557,7 +576,8 @@ header a {
 }
 .ten-bg {
     background-color: white;
-    padding-bottom: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .ten-bg h3 {
     font-size: 28px;
@@ -579,7 +599,6 @@ header a {
 }
 .engineer {
     text-align: left;
-    float: left;
     margin-bottom: 40px;
     display: flex; 
 }
@@ -616,25 +635,29 @@ header a {
     background-size: cover;
     background-position-x: center;
     padding-bottom: 60px;
+    padding-top: 40px;
 }
 .eleven-bg h3  {
     color: white;
     padding-bottom: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 .eleven-bg p  {
     color: white;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
-.eleven-bg .row {
+.contents {
     margin: 0 auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .content {
-    margin: 0;
+    width: 21%;
+    margin: 0 15px;
     padding: 0;
 }
 .content h4 {
@@ -654,6 +677,7 @@ header a {
     border: 2px solid #016EA9;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    margin: 0;
 }
 .content li {
     list-style: none;
@@ -661,7 +685,7 @@ header a {
     border-style: dotted;
     margin: 0;
     padding: 14px;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     font-size: 15px;
     border-bottom-left-radius: 8px;
@@ -775,9 +799,6 @@ header a {
 .fourteen-bg {
     background-color: #F7C23C;
 }
-.threeteen-bg  .row {
-
-}
 .privilege {
     height: 225px;
     width: 225px;
@@ -818,6 +839,10 @@ header a {
 
 /* eighteen Section */
 .eighteen-bg {
+
+}
+
+.nineteen-bg {
     background-color: white;
 }
 .faq {
@@ -834,7 +859,7 @@ header a {
     cursor:pointer;
     text-align: left;
     list-style: none;
-  }
+    }
 .faq-list-item h4 {
     font-size: 14px;
     font-weight: bold;
@@ -862,7 +887,7 @@ header a {
     margin-bottom: 3px;
     display: none;
 }
-
+}
 
 @media (max-width: 767px) {
     

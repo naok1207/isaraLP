@@ -582,12 +582,13 @@ header a {
 .ten-bg h3 {
     font-size: 28px;
     font-weight: bold;
-    padding-bottom: 14px;
+    margin-bottom: 12px;;
 }
 .ten-bg h4 {
     font-size: 14px;
     font-weight: bold;
-    padding-bottom: 35px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 .ten-bg p {
     font-size: 12px;
@@ -696,9 +697,10 @@ header a {
     color: white;
 }
 .eleven-2-bg p {
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    width: 75%;
+    width: 42%;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -710,26 +712,33 @@ header a {
 .twelve-bg {
     background-color: white;
     color: black;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 .flow-img {
-    width: 90%;
+    width: 80%;
     margin-bottom: 40px;
+}
+.flows {
+    width: 100%;
+    margin: 0 auto;
 }
 .flow {
     margin: 0 auto;
     background-color: #FEF5E0;
     width: 85%;
-    padding: 30px 35px 0px 65px;
+    padding: 30px 35px 0px 50px;
     border-radius: 8px;    
+    display: flex;
 }
 .flow-logo {
-    float: left;
-    width: 21%;
-    padding-bottom: 30px;
+    width: 200px;
 }
 .flow-logo img {
-    width: 70%;
+    width: 60%;
     margin-bottom: 15px;
 }
 .flow-logo h4 {
@@ -737,21 +746,22 @@ header a {
     font-weight: bold;
     line-height: 150%;
     letter-spacing: 0.1rem;
+    margin-top: 0;
 }
 .flow-logo-2 {
     padding-top: 35px;
 }
 .flow-p {
     text-align: left;
-    float: right;
-    width: 78%;
-    padding-top: 8px;
+    width: 90%;
     padding-left: 25px;
     padding-bottom: 20px;
+    letter-spacing: 0.03rem;
 }
 .flow-sentent-1 {
     font-size: 14px;
     font-weight: bold;
+    margin-top: 0;
 }
 .flow-sentent-2{
     font-size: 12px;
@@ -761,36 +771,43 @@ header a {
     width: 60%;
     height: 50px;
     margin: 0 auto;;
+    padding: 0;
 }
 
-/* threeteen Section */
-.threeteen-bg {
+/* thirteen Section */
+.thirteen-bg {
     background-image: url(../img/bangkokbg.jpg);
     background-size: cover;
     background-position-x: center;
+    background-position-y: center;
     color: white;
     text-align: left;
-    padding-left: 60px;
+    padding-top: 70px;
     padding-bottom: 50px;
 }
-.threeteen-bg h3 {
-    padding-bottom: 10px;
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
-.threeteen-bg p {
+.thirteen-bg h3 {
+    font-size: 24px;
+}
+.thirteen-bg p {
     font-size: 12px;
     width: 35%;
 }
-.threeteen-bg ul {
+.thirteen-bg ul {
     padding-left: 0px;
 }
-.threeteen-bg li {
+.thirteen-bg li {
     font-size: 14px;
     font-weight: bold;
     list-style: none;
     line-height: 200%;
     letter-spacing: 0.1rem;
 }
-.threeteen-bg h4 {
+.thirteen-bg h4 {
     font-size: 16px;
     font-weight: bold;
 }
@@ -798,10 +815,39 @@ header a {
 /* fourteen Section */
 .fourteen-bg {
     background-color: #F7C23C;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.fourteen-bg p {
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.fourteen-bg span {
+    color: white;
+}
+.sub-container {
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+    padding-bottom: 70px;
+}
+.sub-container h4 {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: -60px;
+    font-size: 28px;
+    background-color: #F7C23C;
+}
+.privileges {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .privilege {
-    height: 225px;
-    width: 225px;
+    height: 240px;
+    width: 240px;
+    margin: 0 auto;
     background-color: white;
     border-radius: 300px;
 }
@@ -809,8 +855,8 @@ header a {
     color: #F7C23C;
     font-size: 25px;
     margin: 0 auto;
-    padding-top: 45px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 8px;
 }
 .privilege p {
     margin: 0 auto;
@@ -828,22 +874,102 @@ header a {
 
 /* sixteen Section */
 .sixteen-bg {
-
+    background-image: url(../img/specialdetail.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding: 50px 0;
+    color: white;
 }
+.sixteen-bg p {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.sixteen-bg .head-float {
+    padding: 20px 0;
+}
+.sixteen-bg .start-heading {
+    border-color: white;
+}
+.sixteen-bg .end-heading {
+    border-color: white;
+}
+
 
 /* seventeen Section */
 .seventeen-bg {
-
+    padding-top: 50px;
+}
+.heading-p {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.seventeen-float {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.seventeen-float img {
+    height: 150px;
+    width: 200px;
+}
+.seventeen-sentence {
+    width: 65%;
+    text-align: left;
+    padding: 0;
+    padding-left: 30px;
+    letter-spacing: 0.05rem;
+}
+.seventeen-sentence p {
+    margin-top: 0;
 }
 
 
 /* eighteen Section */
 .eighteen-bg {
-
+    background-color: #F7C23C;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.eighteen-bg p {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.form {
+    width: 100%;
+    color: darkcyan;
+}
+.form input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+.form textarea {
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+}
+.form .submit {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+    background-color: #DA6B64;
+    border-radius: 50px;;
 }
 
 .nineteen-bg {
     background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .faq {
     margin: 0 auto;
@@ -851,10 +977,10 @@ header a {
 #faq-list {
     padding-left: 0;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
 }
 .faq-list-item {
-    margin: 0 auto;
+    margin: 4px auto;
     position:relative;
     cursor:pointer;
     text-align: left;
@@ -863,6 +989,7 @@ header a {
 .faq-list-item h4 {
     font-size: 14px;
     font-weight: bold;
+    margin: 0;
     padding: 20px;
     border: 2px solid #E5E5E5;
     border-radius: 4px;
@@ -881,13 +1008,15 @@ header a {
     width: 95%;
     letter-spacing: 0.1rem;
     margin: 0 auto;
-    padding: 5px 0px;
-    padding-bottom: 12px;
+    padding: 20px 0px 30px 0;
     border-bottom: 1px solid #E5E5E5;
     margin-bottom: 3px;
     display: none;
 }
+.answer p {
+    margin: 0;
 }
+
 
 @media (max-width: 767px) {
     
